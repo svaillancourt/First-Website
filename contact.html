@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Page</title>
+    </head>
+    <body>
+        <h1>Contact Page</h1>
+        <form action="submit.php" method="POST">
+            <label for="first-name">
+                First Name:
+                <input type="text" name ="first-name" 
+                placeholder="Enter your first name...">     <!--Text within your text box-->
+            </label>
+            <label for="last-name">
+                Last Name:
+                <input type="text" name ="last-name" 
+                placeholder="Enter your last name...">     <!--Text within your text box-->
+            </label>
+            <label for="your-email">
+                Email:
+                <input type="text" name ="your-email" 
+                placeholder="Enter your email address...">     <!--Text within your text box-->
+            </label>
+            <label for="subscribe">
+                <input type="checkbox" name ="subscribe">       <!--radio button before your text-->
+                i'd like to receive e-mail newsletters and i have read the 
+                <a href="#">
+                    Terms of Service.
+                </a>
+            </label>
+            <label for ="category">
+                Pick a category
+                <select name="category">
+                    <option value="horror">Horror</option>
+                    <option value="documentary">Documentary</option>
+                    <option value="comedy">Comedy</option>
+                </select>
+            </label>
+                <label for="time-of-day">
+                <input type="radio" name="time-of-day" value="morning"> Morning
+                <input type="radio" name="time-of-day" value="afternoon"> Afternoon
+                <input type="radio" name="time-of-day" value="eveining"> Evening
+            </label>
+                <input type="submit" value ="Subit form" 
+                placeholder="Enter your email address...">     <!--Text within your text box-->
+        </form>
+    </body>
+</html>
